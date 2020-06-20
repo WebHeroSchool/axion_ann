@@ -1,6 +1,881 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
 
-p {
-  font-family: GothaPro, sans-serif;
-  font-size: 13px;
-  line-height: 16px;
+.conteiner {
+	max-width: 1030px;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+}
+
+ a {
+ 	display: inline-block;
+ 	text-decoration: none;
+ }
+
+ .header {
+ 	width: 100%;
+ 	top: 0;
+ 	left: 0;
+ 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 116px;
+ }
+
+.header__column {
+	flex: 0 0 55px;
+	height: 55px;
+}
+
+.header__logo {
+	flex: 0 0 55px;
+}
+
+.header__logo_img {
+	max-width: 100%;
+	display: block;
+}
+
+.header__logo_tabimg {
+	display: none;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 334px;
+	height: 55px;
+	margin: 0 145px 0 0;
+}
+
+
+.header-menu__link {
+	font-family: GothaPro;
+	font-size: 12px;
+	text-align: justify;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+}
+
+.header-menu__burger {
+	display: none;
+}
+
+.search-form__input {
+	height: 27px;
+	width: 178px;
+	border-bottom: 2px solid #000;
+	background-color: #fff;
+	display: flex;
+}	
+
+.search-form__text {
+	font-family: 'GothaPro';
+	font-size: 14px;
+	border: none;
+	outline: none;
+  	vertical-align: middle;
+  	width: 157px;	
+}
+
+.search-form__submit {
+	padding: 30px 11px 0px 6px;
+	border: none;
+	background: url(../image/magnifier.svg) no-repeat 50% 50%;
+}
+
+.right-menu {
+	flex: 0 0 405px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.right-menu__link {
+	font-family: 'GothaPro';
+	font-size: 12px;
+	text-align: justify;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	height: 13px;
+}
+
+.image {
+	float: right;
+	padding: 0 0 0 4px;
+}
+
+/*1 секция*/
+
+.imageblock {
+	background: url(../image/rob-potter-bg.svg);
+	height:281px;
+	margin: 0 0 50px 0;
+	background-size: cover;
+}
+
+.imageblock__title {
+	font-family: 'GothaPro';
+	font-size: 30px;
+	line-height: 29px;
+	text-align: justify;
+	text-transform: uppercase;
+	color: #fff;
+	width: 186px;
+	margin: 0 0 13px 0;
+	padding: 89px 0 0 60px;
+}
+
+.imageblock__link {
+	padding: 0 0 2px 60px;
+}
+
+.link-arrow__white {
+	font-family: 'GothaPro';
+	font-size: 12px;
+	line-height: 11px;
+	text-align: justify;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.arrow-white__img {
+	padding-left: 2px;
+}
+
+.arrow-white__scrimg,
+.arrow-white__tabimg {
+	display: none;
+}
+
+.shop__title {
+	font-family: 'GothaPro';
+	font-size: 22px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	margin: 0 0 12px 0;
+}
+
+.shop-wrap {
+	display: flex;
+	justify-content: space-between;
+	height: 240px;
+	margin-bottom: 54px;
+}
+
+.sneaker-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 235px;
+}
+
+.sneaker-item::after {
+	content:"";
+	position: absolute;
+	background: #000;
+	width: 2px;
+	height: 100px;
+	opacity: .2; 
+	margin: 49px 0 0 249px;
+}
+
+.sneaker-item:nth-child(4)::after {
+	display: none;
+}
+
+.sneaker-item__block {
+	align-self: center;
+	width: 185px;
+	margin-bottom: 6px;
+}
+
+.sneaker-item__img {
+	width: 100%;
+	height: 100%;	
+}
+
+.sneaker-item__name {
+	font-family: 'GothaPro';
+	font-size: 12px;
+	line-height: 11px;
+	text-align: justify;
+	color: #000;
+	padding: 0 0 0 12px;
+	margin: 14px 0 7px 0;
+}
+
+.sneaker-item__wrap {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.sneaker-item__price {
+	font-family: 'GothaPro';
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 13px;
+	text-align: justify;
+	color: #000;
+	margin: 1px 0 0 12px;
+}
+
+.colour-circle {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 53px;
+	align-items: center;
+	padding: 0 17px 0 0;
+}
+
+.colour-circle__item {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+}
+
+.colour-circle__item_active {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+}
+
+.colour-circle__item_grey {
+	background: #C4C4C4;
+}
+
+.colour-circle__item_black {
+	background: #0E1211;
+}
+
+.colour-circle__item_red {
+	background: #B62E3C;
+}
+
+.colour-circle__item_yellow {
+	background: #FDB431;
+}
+
+.colour-circle__item_orange {
+	background: #E29D69;
+}
+
+.colour-circle__item_brown {
+	background: #762E31;
+}
+
+.colour-circle__item_darkblue {
+	background: #41479B;
+}
+
+.colour-circle__item_blue {
+	background: #257DA9;
+}
+
+/*2 секция*/
+
+.history {
+	background: #000;
+	height: 494px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex:0 1 auto;
+	margin-bottom: 76px;
+}
+
+.history__video {
+	max-width: 645px;
+	padding: 4px 0 0 13px;
+}
+
+.history__video_img {
+	width: 100%;
+	height: 100%;	
+}
+
+.history__wrap {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	max-width: 266px;
+	height: 190px;
+	margin: 0 25px 0 0;
+}
+
+.history__title {
+	font-family: 'GothaPro';
+	font-size: 22px;
+	line-height: 27px;
+	text-align: justify;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0 0 13px 0;
+}
+
+.history__text {
+	font-family: 'GothaPro';
+	font-size: 14px;
+	line-height: 17px;
+	text-align: left;
+	color: #fff;
+	margin: 0 0 17px 0; 
+}
+
+.arrow-white_img2{
+	padding-left: 6px; 
+}
+
+/*3 секция*/
+
+.article__title {
+	font-family: 'GothaPro';
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+}
+
+@media (max-width: 1024px){
+	.conteiner {
+		max-width: 930px;
+	}
+
+	.header {
+		height: 129px;
+	}
+
+	.header__column {
+		height: 67px;
+    	flex: 0 0 61px;
+	}
+
+	.header__logo {
+		flex:0 0 61px;
+	}
+	
+	.header-menu {
+	    margin: 0 116px 0 0;
+    	height: 56px;
+	}
+
+	.right-menu {
+    	flex: 0 0 364px;
+	}
+	
+    .search-form__input {
+	    height: 17px;
+	    width: 161px;
+	}
+
+    .search-form__text {
+	    font-size: 12px;
+	    width: 141px;
+    }
+
+    .search-form__submit {
+	    padding: 0px 10px 0px 10px;
+	    background: url(../image/magnifier.svg) no-repeat 20% 20%;
+	}
+
+	.right-menu__link {
+    	height: 22px;
+    }
+		/*1 секция*/
+
+	.imageblock {
+		background: url(../image/rob-potter-1024.svg);
+		height: 253px;
+		background-size: cover;
+		margin: 0 0 66px 0;
+	}
+
+	.imageblock__title {
+		margin: 0 0 5px 0;
+		padding: 77px 0 0 55px;
+	}
+	.imageblock__link {
+    	padding: 0 0 0 55px;
+	}
+
+	.arrow-white__scrimg {
+		display: inline-block;
+		padding-left: 5px;
+	}
+
+	.arrow-white__img,
+	.arrow-white__tabimg {
+		display: none;
+	}
+
+	.shop__title {
+	    margin: 0 0 17px 0;
+	}
+	.sneaker-item {
+	    width: 211px;
+	}
+
+	.sneaker-item__block {
+        width: 172px;
+    	margin-bottom: 27px;
+	}
+
+	.sneaker-item::after {
+    	margin: 42px 0 0 224px;
+	}
+
+	.sneaker-item__name {
+	    margin: 0px 0 9px 0;
+	}
+
+	.shop-wrap {
+    	margin-bottom: 75px;
+    }
+
+	.colour-circle {
+	    width: 45px;
+	   	padding: 0 16px 0 0px;
+	}
+
+	/*2 секция*/
+
+	.history {
+	    height: 442px;
+	    margin-bottom: 92px;
+	}
+
+	.history__video {
+	    max-width: 578px;
+	    padding: 4px 0 0 13px;
+	}
+
+	.history__wrap {
+	    max-width: 246px;
+	    height: 182px;
+	    margin: 0 19px 0 0;
+	}
+
+	.history__title {
+    	margin: 0 0 0 0;
+	}
+
+	.history__text {    
+	    font-size: 13px;
+	    line-height: 16px;
+	    margin: 0 0 0 0;
+	}
+
+	.arrow-white_img2 {
+   		padding-left: 11px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+	
+	.conteiner {
+		max-width: 890px;
+	}
+
+	.header-menu {
+		margin: 0 0 0 0;
+	}
+
+	.sneaker-item::after  {
+		display: none;
+	}
+}
+
+@media (max-width: 768px){
+	
+	.header {
+		height: 114px;
+	}
+
+	.header__column {
+		height: auto;
+		margin-top: 5px;
+	}
+
+	.header__logo_tabimg {
+		display: block;
+		margin: 0 0 0 42px;
+	}
+
+	.header__burger {
+		display: block;
+		position: relative;
+		width: 60px;
+		height: 24px;
+		margin: 0 45px 0 0;
+	}
+
+	.header__burger:before,
+	.header__burger:after {
+		content: '';
+		background-color: #000;
+		position: absolute;
+		width: 100%;
+		height: 9px;
+	}
+
+	.header__burger:before {
+		top: 0;
+	}
+
+	.header__burger:after {
+		bottom: 0;
+	}
+
+	.header__logo_img,
+	.header-menu,
+	.search-form,
+	.right-menu {
+		display: none;
+	}
+
+	/*1 секция*/
+
+	.imageblock {
+		background: url(../image/rob-potter-768.svg);
+		height:416px;
+		margin-bottom: 63px;
+		background-size: cover;
+	}
+
+	.imageblock__title {
+		font-size: 50px;
+		line-height: 48px;
+		width: 320px;
+		margin: 0 0 46px 0;
+		padding: 120px 0 0 45px;
+	}
+
+	.imageblock__link {
+		padding: 0 0 0 45px;
+	}
+
+	.link-arrow__white {
+		font-size: 20px;
+		line-height: 19px;
+		font-weight: bold;
+	}
+
+	.arrow-white__tabimg {
+		display: inline-block;
+		padding: 3px 0 0 5px;
+	}
+
+	.arrow-white__img,
+	.arrow-white__scrimg {
+		display: none;
+	}
+
+	.shop__title {
+		font-size: 30px;
+		line-height: 29px;
+		margin: 0 14px 25px 0;
+	}
+	.shop-wrap {
+		height: 320px;
+		margin-bottom: 77px;
+		justify-content: space-evenly;
+	}
+
+	.sneaker-item {
+		width: 281px;
+	}
+
+	.sneaker-item__block {
+		width: 230px;
+		height: 233px;
+		margin-bottom: 23px;
+	}
+	
+	.sneaker-item__name {
+		font-size: 20px;
+		line-height: 19px;
+		padding: 0 0 0 15px;
+		margin-bottom: 18px; 
+    
+	}
+
+	.sneaker-item__price {
+		font-size: 25px;
+		line-height: 24px;
+		padding: 0 0 0 15px;
+		margin: 0;
+	}
+
+	.colour-circle {
+		width: 94px;
+		padding: 0 8px 0 0;
+	}
+
+	.colour-circle__item {
+		width: 20px;
+		height: 20px;
+	}
+	
+	.sneaker-item:nth-child(3),
+	.sneaker-item:nth-child(4),
+	.sneaker-item:after {
+		display: none;
+	}
+
+	/*2 секция*/
+
+	.history {
+		background: #000;
+		position: relative;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		height: 603px;
+	}
+
+	.history:before {
+		background: inherit;
+		content: "";
+		top: 0;
+		display: block;
+		height: 9%;
+		left: 0;
+		position: absolute;
+		right: 0;
+		transform: skewY(2.5deg);
+    	transform-origin: 100%;
+    	z-index: -1;
+	}
+
+	.history__video {
+	    max-width: 696px;
+	    padding: 0 0 0 0;
+	}
+
+	.history__video_img {
+		width: 696px;
+	}
+
+
+	.history__wrap {
+    	align-items: center;
+	    max-width: 683px;   
+	}
+
+	.history__title {
+		font-size: 30px;
+		line-height: 37px;
+		text-align: center;
+	 	margin: 0 0 11px 0;
+    	padding: 48px 0 0 16px;
+	}
+
+	.history__text {    
+	    font-size: 20px;
+		line-height: 25px;
+		text-align: center;
+	    padding: 0px 0 0 21px;
+	}
+
+	.history__link {
+    	display: none;
+	}
+}
+
+@media (min-width: 376px) and (max-width: 576px){
+
+	.sneaker-item:nth-child(2) {
+		display: none;
+	}
+
+	.history__video_img {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 375px){
+	
+	.header {
+		height: 72px;
+		justify-content: space-around;
+	}
+	.header__column {
+		height: auto;
+		margin-top: 0px;
+	}
+
+	.header__logo_tabimg {
+		width: 110px;
+		margin: 0 0 0 0;
+	}
+
+	.header__burger {
+		display: block;
+		position: relative;
+		width: 41px;
+		height: 15px;
+		margin: 0 0 0 39px;
+	}
+
+	.header__burger:before,
+	.header__burger:after {
+		height: 5px;
+	}
+
+	/*1 секция*/
+
+	.imageblock {
+		background: url(../image/rob-potter-375.svg);
+		height:191px;
+		margin-bottom: 37px;
+		background-size: cover;
+	}
+
+	.imageblock__title {
+		font-size: 20px;
+		line-height: 19px;
+		width: 129px;
+		margin: 0 0 17px 0;
+    	padding: 64px 0 0 47px;
+	}
+
+	.imageblock__link {
+		
+		padding: 0 0 0 48px;
+	}
+
+	.link-arrow__white {
+		font-size: 12px;
+		line-height: 11px;
+	}
+
+	.arrow-white__scrimg {
+		display: inline-block;
+		padding: 3px 0 0 3px;
+	}
+
+	.arrow-white__img,
+	.arrow-white__tabimg {
+		display: none;
+	}
+
+	.shop__title {
+		font-size: 20px;
+		line-height: 19px;
+		margin: 0 10px 0 0;
+	}
+	.shop-wrap {
+		height: 234px;
+	
+	}
+	.sneaker-item__block {
+		width: 163px;
+	    height: auto;
+	    margin-bottom: 14px;
+	}
+	
+	.sneaker-item__name {
+		font-size: 15px;
+		line-height: 14px;
+		padding: 0 0 0 16px;
+    	margin-bottom: 8px; 
+	}
+
+	.sneaker-item__price {
+		font-size: 20px;
+		line-height: 19px;
+		padding: 0 0 0 16px;
+		
+	}
+	.colour-circle {
+		width: 73px;
+		padding: 0;
+	}
+
+	.colour-circle__item {
+		width: 15px;
+		height: 15px;
+	}
+	
+	.sneaker-item:nth-child(2) {
+		display: none;
+	}
+
+	/*2 секция*/
+
+	.history {
+		height: 365px;
+		
+	}
+
+	.history__video {
+	    max-width: 279px;
+	    padding: 0 0 0 0;
+	}
+	.history__wrap {
+	    max-width: 283px;
+	    margin: 0 21px 0 0;   
+	}
+
+	.history__title {
+		font-size: 20px;
+		line-height: 25px;
+	 	margin: 0 0 4px 0;
+    	padding: 18px 0 0 21px;
+    	max-width: 260px;
+	}
+
+	.history__text {   
+	    font-size: 14px;
+		line-height: 17px;
+	    padding: 0px 0 0 21px;
+	}
+}
+@media (max-width: 320px){
+	
+	.header__logo_tabimg {
+		width: 104px;
+		margin: 0 0 0 0;
+	}
+
+	.header__burger {
+		margin: 0 0 0 90px;
+	}
+	
+	/*1 секция*/
+
+	.imageblock {
+		background: url(../image/rob-potter-320.svg);
+		margin-bottom: 37px;
+		background-size: cover;
+	}
+
+	.imageblock__title {
+    	padding: 64px 0 0 20px;
+    }
+
+	.imageblock__link {
+		padding: 0 0 0 20px;
+	}
+	
+	.sneaker-item__name {
+		padding: 0 0 0 16px;
+    	margin-bottom: 8px; 
+	}
 }
