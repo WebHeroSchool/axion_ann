@@ -652,7 +652,7 @@ a:hover {
 
   .history:before {
     background: inherit;
-    content: 
+    content: '';
     display: block;
     height: 9%;
     left: 0;
