@@ -635,7 +635,7 @@ a:hover {
     width: 20px;
     height: 20px;
   }
-  
+
   .sneaker-item:nth-child(3),
   .sneaker-item:nth-child(4),
   .sneaker-item::after {
@@ -812,7 +812,7 @@ a:hover {
     width: 15px;
     height: 15px;
   }
-  
+
   .sneaker-item:nth-child(2) {
     display: none;
   }
@@ -857,7 +857,7 @@ a:hover {
   .header__burger {
     margin: 0 0 0 90px;
   }
-  
+
   /* 1 секция */
 
   .imageblock {
@@ -873,7 +873,7 @@ a:hover {
   .imageblock__link {
     padding: 0 0 0 20px;
   }
-  
+
   .sneaker-item__name {
     padding: 0 0 0 16px;
     margin-bottom: 8px;
