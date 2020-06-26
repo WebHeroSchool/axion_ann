@@ -16,8 +16,8 @@ a {
 }
 
 a:hover {
-  opacity: 0.8;
-  transition-duration: 0.3s;
+  opacity: .8;
+  transition-duration: .3s;
 }
 
 .header {
@@ -116,11 +116,11 @@ a:hover {
   vertical-align: -4px;
 }
 
-/*1 секция*/
+/* 1 секция */
 
 .imageblock {
   background: url(../image/rob-potter-bg.svg);
-  height:281px;
+  height: 281px;
   margin: 0 0 50px 0;
   background-size: cover;
 }
@@ -184,7 +184,7 @@ a:hover {
 }
 
 .sneaker-item::after {
-  content:"";
+  content:" ";
   position: absolute;
   background: #000;
   width: 2px;
@@ -256,38 +256,38 @@ a:hover {
 }
 
 .colour-circle__item_grey {
-  background: #C4C4C4;
+  background: #c4c4c4;
 }
 
 .colour-circle__item_black {
-  background: #0E1211;
+  background: #0e1211;
 }
 
 .colour-circle__item_red {
-  background: #B62E3C;
+  background: #b62e3c;
 }
 
 .colour-circle__item_yellow {
-  background: #FDB431;
+  background: #fdb431;
 }
 
 .colour-circle__item_orange {
-  background: #E29D69;
+  background: #e29d69;
 }
 
 .colour-circle__item_brown {
-  background: #762E31;
+  background: #762e31;
 }
 
 .colour-circle__item_darkblue {
-  background: #41479B;
+  background: #41479b;
 }
 
 .colour-circle__item_blue {
-  background: #257DA9;
+  background: #257da9;
 }
 
-/*2 секция*/
+/* 2 секция */
 
 .history {
   background: #000;
@@ -296,7 +296,7 @@ a:hover {
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
-  flex:0 1 auto;
+  flex: 0 1 auto;
   margin-bottom: 76px;
 }
 
@@ -343,7 +343,7 @@ a:hover {
   padding-left: 6px;
 }
 
-/*3 секция*/
+/* 3 секция */
 
 .article__title {
   font-family: 'GothaPro', sans-serif;
@@ -355,7 +355,7 @@ a:hover {
   color: #000;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .conteiner {
     max-width: 930px;
   }
@@ -366,20 +366,20 @@ a:hover {
 
   .header__column {
     height: 67px;
-      flex: 0 0 61px;
+    flex: 0 0 61px;
   }
 
   .header__logo {
-    flex:0 0 61px;
+    flex: 0 0 61px;
   }
-  
+
   .header-menu {
-      margin: 0 116px 0 0;
-      height: 56px;
+    margin: 0 116px 0 0;
+    height: 56px;
   }
 
   .right-menu {
-      flex: 0 0 364px;
+    flex: 0 0 364px;
   }
   
   .search-form__input {
@@ -393,15 +393,15 @@ a:hover {
   }
 
   .search-form__submit {
-    padding: 0px 10px 0px 10px;
+    padding: 0 10px 0 10px;
     background: url(../image/magnifier.svg) no-repeat 20% 20%;
   }
 
   .right-menu__link {
-      height: 22px;
+    height: 22px;
   }
 
-    /*1 секция*/
+  /* 1 секция */
 
   .imageblock {
     background: url(../image/rob-potter-1024.svg);
@@ -432,6 +432,7 @@ a:hover {
   .shop__title {
     margin: 0 0 17px 0;
   }
+
   .sneaker-item {
     width: 211px;
   }
@@ -446,7 +447,7 @@ a:hover {
   }
 
   .sneaker-item__name {
-    margin: 0px 0 9px 0;
+    margin: 0 0 9px 0;
   }
 
   .shop-wrap {
@@ -455,10 +456,10 @@ a:hover {
 
   .colour-circle {
     width: 45px;
-    padding: 0 16px 0 0px;
+    padding: 0 16px 0 0;
   }
 
-  /*2 секция*/
+  /* 2 секция */
 
   .history {
     height: 442px;
@@ -491,7 +492,7 @@ a:hover {
   }
 }
 
-@media (min-width: 769px) and (max-width: 992px){
+@media (min-width: 769px) and (max-width: 992px) {
   .conteiner {
     max-width: 890px;
   }
@@ -505,7 +506,7 @@ a:hover {
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .header {
     height: 114px;
   }
@@ -528,8 +529,8 @@ a:hover {
     margin: 0 45px 0 0;
   }
 
-  .header__burger:before,
-  .header__burger:after {
+  .header__burger::before,
+  .header__burger::after {
     content: '';
     background-color: #000;
     position: absolute;
@@ -552,11 +553,11 @@ a:hover {
     display: none;
   }
 
-  /*1 секция*/
+  /* 1 секция */
 
   .imageblock {
     background: url(../image/rob-potter-768.svg);
-    height:416px;
+    height: 416px;
     margin-bottom: 63px;
     background-size: cover;
   }
@@ -594,6 +595,7 @@ a:hover {
     line-height: 29px;
     margin: 0 14px 25px 0;
   }
+
   .shop-wrap {
     height: 320px;
     margin-bottom: 77px;
@@ -636,11 +638,11 @@ a:hover {
   
   .sneaker-item:nth-child(3),
   .sneaker-item:nth-child(4),
-  .sneaker-item:after {
+  .sneaker-item::after {
     display: none;
   }
 
-  /*2 секция*/
+  /* 2 секция */
 
   .history {
     background: #000;
@@ -672,7 +674,6 @@ a:hover {
     width: 696px;
   }
 
-
   .history__wrap {
     align-items: center;
     max-width: 683px;
@@ -690,7 +691,7 @@ a:hover {
     font-size: 20px;
     line-height: 25px;
     text-align: center;
-    padding: 0px 0 0 21px;
+    padding: 0 0 0 21px;
   }
 
   .history__link {
@@ -698,7 +699,7 @@ a:hover {
   }
 }
 
-@media (min-width: 376px) and (max-width: 576px){
+@media (min-width: 376px) and (max-width: 576px) {
   .sneaker-item:nth-child(2) {
     display: none;
   }
@@ -708,14 +709,15 @@ a:hover {
   }
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
   .header {
     height: 72px;
     justify-content: space-around;
   }
+
   .header__column {
     height: auto;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .header__logo_tabimg {
@@ -736,11 +738,11 @@ a:hover {
     height: 5px;
   }
 
-  /*1 секция*/
+  /* 1 секция */
 
   .imageblock {
     background: url(../image/rob-potter-375.svg);
-    height:191px;
+    height: 191px;
     margin-bottom: 37px;
     background-size: cover;
   }
@@ -787,20 +789,20 @@ a:hover {
     height: auto;
     margin-bottom: 14px;
   }
-  
+
   .sneaker-item__name {
     font-size: 15px;
     line-height: 14px;
     padding: 0 0 0 16px;
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
   }
 
   .sneaker-item__price {
     font-size: 20px;
     line-height: 19px;
     padding: 0 0 0 16px;
-    
   }
+
   .colour-circle {
     width: 73px;
     padding: 0;
@@ -815,7 +817,7 @@ a:hover {
     display: none;
   }
 
-  /*2 секция*/
+  /* 2 секция */
 
   .history {
     height: 365px;
@@ -846,7 +848,7 @@ a:hover {
   }
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
   .header__logo_tabimg {
     width: 104px;
     margin: 0 0 0 0;
@@ -856,7 +858,7 @@ a:hover {
     margin: 0 0 0 90px;
   }
   
-  /*1 секция*/
+  /* 1 секция */
 
   .imageblock {
     background: url(../image/rob-potter-320.svg);
