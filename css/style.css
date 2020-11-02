@@ -53,7 +53,7 @@ a {
 }
 
 .header-menu__link {
-	font-family: GothaPro;
+	font-family: 'GothaPro', sans-serif;
 	font-size: 12px;
 	text-align: justify;
 	text-transform: uppercase;
@@ -71,15 +71,15 @@ a {
 	border-bottom: 2px solid #000;
 	background-color: #fff;
 	display: flex;
-}	
+}
 
 .search-form__text {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 14px;
 	border: none;
 	outline: none;
 	vertical-align: middle;
-	width: 157px;	
+	width: 157px;
 }
 
 .search-form__submit {
@@ -97,7 +97,7 @@ a {
 }
 
 .right-menu__link {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 12px;
 	text-align: justify;
 	text-transform: uppercase;
@@ -115,13 +115,13 @@ a {
 
 .imageblock {
 	background: url(../image/rob-potter-bg.svg);
-	height:281px;
+	height: 281px;
 	margin: 0 0 50px 0;
 	background-size: cover;
 }
 
 .imageblock__title {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 30px;
 	line-height: 29px;
 	text-align: justify;
@@ -137,7 +137,7 @@ a {
 }
 
 .link-arrow__white {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 12px;
 	line-height: 11px;
 	text-align: justify;
@@ -155,7 +155,7 @@ a {
 }
 
 .shop__title {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 22px;
 	line-height: 21px;
 	text-align: center;
@@ -179,7 +179,7 @@ a {
 }
 
 .sneaker-item::after {
-	content:"";
+	content: "";
 	position: absolute;
 	background: #000;
 	width: 2px;
@@ -204,7 +204,7 @@ a {
 }
 
 .sneaker-item__name {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 12px;
 	line-height: 11px;
 	text-align: justify;
@@ -220,7 +220,7 @@ a {
 }
 
 .sneaker-item__price {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 13px;
@@ -251,35 +251,35 @@ a {
 }
 
 .colour-circle__item_grey {
-	background: #C4C4C4;
+	background: #c4c4c4;
 }
 
 .colour-circle__item_black {
-	background: #0E1211;
+	background: #0e1211;
 }
 
 .colour-circle__item_red {
-	background: #B62E3C;
+	background: #b62e3c;
 }
 
 .colour-circle__item_yellow {
-	background: #FDB431;
+	background: #fdb431;
 }
 
 .colour-circle__item_orange {
-	background: #E29D69;
+	background: #e29d69;
 }
 
 .colour-circle__item_brown {
-	background: #762E31;
+	background: #762e31;
 }
 
 .colour-circle__item_darkblue {
-	background: #41479B;
+	background: #41479b;
 }
 
 .colour-circle__item_blue {
-	background: #257DA9;
+	background: #257da9;
 }
 
 /*2 секция*/
@@ -291,7 +291,7 @@ a {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: nowrap;
-	flex:0 1 auto;
+	flex: 0 1 auto;
 	margin-bottom: 76px;
 }
 
@@ -316,7 +316,7 @@ a {
 }
 
 .history__title {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 22px;
 	line-height: 27px;
 	text-align: justify;
@@ -326,7 +326,7 @@ a {
 }
 
 .history__text {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	text-align: left;
@@ -345,7 +345,7 @@ a {
 }
 
 .article__title {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-weight: bold;
 	font-size: 22px;
 	line-height: 21px;
@@ -373,7 +373,7 @@ a {
 }
 
 .article-item__subtitle {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 18px;
 	line-height: 17px;
 	font-weight: bold;
@@ -381,7 +381,7 @@ a {
 }
 
 .article-item__text {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 14px;
 	line-height: 17px;
 	margin: 0 0 18px 0;
@@ -393,7 +393,7 @@ a {
 }
 
 .article-item__link {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 12px;
 	line-height: 11px;
 	text-align: justify;
@@ -411,7 +411,7 @@ a {
 }
 
 .article-item__date {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 12px;
 	line-height: 11px;
 	font-weight: bold;
@@ -419,7 +419,7 @@ a {
 }
 
 .gallery__tag {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 18px;
 	line-height: 17px;
 	font-weight: bold;
@@ -463,7 +463,7 @@ a {
 }
 
 .column__title {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 11px;
@@ -479,7 +479,7 @@ a {
 }
 
 .footer-menu__link {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 12px;
 	line-height: 11px;
 	color: #fff;
@@ -488,7 +488,7 @@ a {
 }
 
 .footer-menu__btn {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 10px;
 	line-height: 30px;
 	color: #fff;
@@ -512,7 +512,7 @@ a {
 }
 
 .copyrights__text {
-	font-family: 'GothaPro';
+	font-family: 'GothaPro', sans-serif;
 	font-size: 12px;
 	line-height: 11px;
 	text-align: center;
@@ -525,7 +525,7 @@ a {
 	margin-right: 17px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
 
 	.conteiner {
 		max-width: 930px;
@@ -541,7 +541,7 @@ a {
 	}
 
 	.header__logo {
-		flex:0 0 61px;
+		flex: 0 0 61px;
 	}
 	
 	.header-menu {
@@ -564,7 +564,7 @@ a {
 	}
 
 	.search-form__submit {
-		padding: 0px 10px 0px 10px;
+		padding: 0 10px 0 10px;
 		background: url(../image/magnifier.svg) no-repeat 20% 20%;
 	}
 
@@ -602,6 +602,7 @@ a {
 	.shop__title {
 		margin: 0 0 17px 0;
 	}
+
 	.sneaker-item {
 		width: 211px;
 	}
@@ -616,7 +617,7 @@ a {
 	}
 
 	.sneaker-item__name {
-		margin: 0px 0 9px 0;
+		margin: 0 0 9px 0;
 	}
 
 	.shop-wrap {
@@ -625,7 +626,7 @@ a {
 
 	.colour-circle {
 		width: 45px;
-		padding: 0 16px 0 0px;
+		padding: 0 16px 0 0;
 	}
 
 	/*2 секция*/
@@ -695,7 +696,7 @@ a {
 	}
 }
 
-@media (min-width: 769px) and (max-width: 992px){
+@media (min-width: 769px) and (max-width: 992px) {
 	
 	.conteiner {
 		max-width: 890px;
@@ -714,7 +715,7 @@ a {
 	}
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
 	
 	.header {
 		height: 114px;
@@ -738,8 +739,8 @@ a {
 		margin: 0 45px 0 0;
 	}
 
-	.header__burger:before,
-	.header__burger:after {
+	.header__burger::before,
+	.header__burger::after {
 		content: '';
 		background-color: #000;
 		position: absolute;
@@ -747,11 +748,11 @@ a {
 		height: 9px;
 	}
 
-	.header__burger:before {
+	.header__burger::before {
 		top: 0;
 	}
 
-	.header__burger:after {
+	.header__burger::after {
 		bottom: 0;
 	}
 
@@ -766,7 +767,7 @@ a {
 
 	.imageblock {
 		background: url(../image/rob-potter-768.svg);
-		height:416px;
+		height: 416px;
 		margin-bottom: 63px;
 		background-size: cover;
 	}
@@ -847,7 +848,7 @@ a {
 	
 	.sneaker-item:nth-child(3),
 	.sneaker-item:nth-child(4),
-	.sneaker-item:after {
+	.sneaker-item::after {
 		display: none;
 	}
 
@@ -863,7 +864,7 @@ a {
 		padding-bottom: 103px
 	}
 
-	.history:before {
+	.history::before {
 		background: inherit;
 		content: "";
 		top: 0;
@@ -886,7 +887,6 @@ a {
 		width: 696px;
 	}
 
-
 	.history__wrap {
 		align-items: center;
 		max-width: 683px;   
@@ -904,7 +904,7 @@ a {
 		font-size: 20px;
 		line-height: 25px;
 		text-align: center;
-		padding: 0px 0 0 21px;
+		padding: 0 0 0 21px;
 	}
 
 	.history__link {
@@ -1066,29 +1066,30 @@ a {
 	}
 }
 
-@media (min-width: 577px) and (max-width: 696px){
+@media (min-width: 577px) and (max-width: 696px) {
 	
 	.history__video_img {
 		width: 100%;
 	}
 }
 
-@media (min-width: 376px) and (max-width: 576px){
+@media (min-width: 376px) and (max-width: 576px) {
 
 	.sneaker-item:nth-child(2) {
 		display: none;
 	}
 }
 
-@media (max-width: 375px){
+@media (max-width: 375px) {
 	
 	.header {
 		height: 72px;
 		justify-content: space-around;
 	}
+
 	.header__column {
 		height: auto;
-		margin-top: 0px;
+		margin-top: 0;
 	}
 
 	.header__logo_tabimg {
@@ -1104,8 +1105,8 @@ a {
 		margin: 0 0 0 39px;
 	}
 
-	.header__burger:before,
-	.header__burger:after {
+	.header__burger::before,
+	.header__burger::after {
 		height: 5px;
 	}
 
@@ -1113,7 +1114,7 @@ a {
 
 	.imageblock {
 		background: url(../image/rob-potter-375.svg);
-		height:191px;
+		height: 191px;
 		margin-bottom: 37px;
 		background-size: cover;
 	}
@@ -1151,10 +1152,11 @@ a {
 		line-height: 19px;
 		margin: 0 10px 0 0;
 	}
+
 	.shop-wrap {
 		height: 234px;
-	
 	}
+
 	.sneaker-item__block {
 		width: 163px;
 		height: auto;
@@ -1373,7 +1375,7 @@ a {
 	}
 }
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
 	
 	.header__logo_tabimg {
 		width: 104px;
