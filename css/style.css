@@ -8,15 +8,14 @@ body {
 	width: 100%;
 	margin: 0 auto;
 	box-sizing: border-box;
-
 }
 
 a {
 	display: inline-block;
 	text-decoration: none;
- }
+}
 
- .header {
+.header {
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -24,7 +23,7 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	height: 116px;
- }
+}
 
 .header__column {
 	flex: 0 0 55px;
@@ -52,7 +51,6 @@ a {
 	height: 55px;
 	margin: 0 145px 0 0;
 }
-
 
 .header-menu__link {
 	font-family: GothaPro;
@@ -528,6 +526,7 @@ a {
 }
 
 @media (max-width: 1024px){
+
 	.conteiner {
 		max-width: 930px;
 	}
@@ -572,6 +571,7 @@ a {
 	.right-menu__link {
 		height: 22px;
 	}
+
 		/*1 секция*/
 
 	.imageblock {
@@ -693,15 +693,7 @@ a {
 	.copyrights__webherologo {
 		margin-right: 45px;
 	}
-
 }
-
-/*@media (min-width: 950px) and (max-width: 992px){
-.conteiner {
-		max-width: 890px;
-	}
-
-}*/
 
 @media (min-width: 769px) and (max-width: 992px){
 	
@@ -720,7 +712,6 @@ a {
 	.article__column {
 		max-width: 250px;
 	}
-
 }
 
 @media (max-width: 768px){
@@ -813,6 +804,7 @@ a {
 		line-height: 29px;
 		margin: 0 14px 25px 0;
 	}
+
 	.shop-wrap {
 		height: 320px;
 		margin-bottom: 77px;
@@ -833,8 +825,7 @@ a {
 		font-size: 20px;
 		line-height: 19px;
 		padding: 0 0 0 15px;
-		margin-bottom: 18px; 
-	
+		margin-bottom: 18px;
 	}
 
 	.sneaker-item__price {
@@ -948,7 +939,6 @@ a {
 		line-height: 29px;
 		color: #fff;
 		margin-top: 0;
-
 	}
 
 	.article__bg {
@@ -1074,7 +1064,6 @@ a {
 	.copyrights__webherologo {
 		display: none;
 	}
-
 }
 
 @media (min-width: 577px) and (max-width: 696px){
@@ -1089,11 +1078,6 @@ a {
 	.sneaker-item:nth-child(2) {
 		display: none;
 	}
-
-	/*.history__video_img {
-		width: 100%;
-	}*/
-
 }
 
 @media (max-width: 375px){
@@ -1187,9 +1171,9 @@ a {
 	.sneaker-item__price {
 		font-size: 20px;
 		line-height: 19px;
-		padding: 0 0 0 16px;
-		
+		padding: 0 0 0 16px;	
 	}
+
 	.colour-circle {
 		width: 73px;
 		padding: 0;
@@ -1207,8 +1191,7 @@ a {
 	/*2 секция*/
 
 	.history {
-		height: 360px;
-		
+		height: 360px;	
 	}
 
 	.history__video {
@@ -1346,7 +1329,6 @@ a {
 		line-height: 14px;
 		text-align: center;
 		margin:0 0 8px 0;
-
 	}
 
 	.column:nth-child(2) {
@@ -1375,7 +1357,6 @@ a {
 		padding-top: 11px;
 		margin: 15px 0 105px 0;
 		align-self: center;
-
 	}
 
 	.social {
@@ -1390,9 +1371,6 @@ a {
 		font-size: 13px;
 		line-height: 12px;
 	}
-
-
-	
 }
 
 @media (max-width: 320px){
@@ -1427,4 +1405,3 @@ a {
 		margin-bottom: 8px; 
 	}
 }
-*/
