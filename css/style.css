@@ -11,16 +11,16 @@ body {
 
 }
 
- a {
- 	display: inline-block;
- 	text-decoration: none;
+a {
+	display: inline-block;
+	text-decoration: none;
  }
 
  .header {
- 	width: 100%;
- 	top: 0;
- 	left: 0;
- 	display: flex;
+	width: 100%;
+	top: 0;
+	left: 0;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 116px;
@@ -80,8 +80,8 @@ body {
 	font-size: 14px;
 	border: none;
 	outline: none;
-  	vertical-align: middle;
-  	width: 157px;	
+	vertical-align: middle;
+	width: 157px;	
 }
 
 .search-form__submit {
@@ -342,6 +342,10 @@ body {
 
 /*3 секция*/
 
+.article {
+	margin-bottom: 79px;
+}
+
 .article__title {
 	font-family: 'GothaPro';
 	font-weight: bold;
@@ -350,6 +354,177 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	color: #000;
+	margin-bottom: 44px;
+}
+
+.article__wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+
+.article__column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 304px;
+}
+
+.article-item__image{
+	margin-bottom: 30px;
+}
+
+.article-item__subtitle {
+	font-family: 'GothaPro';
+	font-size: 18px;
+	line-height: 17px;
+	font-weight: bold;
+	margin:0 0 10px 0;
+}
+
+.article-item__text {
+	font-family: 'GothaPro';
+	font-size: 14px;
+	line-height: 17px;
+	margin: 0 0 18px 0;
+}
+
+.article-item__wrap {
+	display: flex;
+	justify-content: space-between; 
+}
+
+.article-item__link {
+	font-family: 'GothaPro';
+	font-size: 12px;
+	line-height: 11px;
+	text-align: justify;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.arrow-black {
+	padding-left: 6px;
+}
+
+.arrow-black__tabimg,
+.arrow-black__mobimg {
+	display: none;
+}
+
+.article-item__date {
+	font-family: 'GothaPro';
+	font-size: 12px;
+	line-height: 11px;
+	font-weight: bold;
+	opacity: 0.3;
+}
+
+.gallery__tag {
+	font-family: 'GothaPro';
+	font-size: 18px;
+	line-height: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	opacity: 0.3;
+	margin-bottom: 11px;
+}
+
+.gallery__wrap {
+	display: flex;
+}
+
+.gallery__img {
+	width: 14.2857%;
+	height: auto;
+	max-width: 100%;
+}
+
+.gallery__img-add {
+	display: none;
+}
+
+/*подвал*/
+
+.footer {
+	background-color: #000;
+}
+
+.footer__wrap {
+	max-width: 775px;
+	margin: 0 auto 34px auto;
+	padding-top: 54px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.column__title {
+	font-family: 'GothaPro';
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 11px;
+	color: #fff;
+	margin-bottom: 11px;
+}
+
+.footer-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: left;
+}
+
+.footer-menu__link {
+	font-family: 'GothaPro';
+	font-size: 12px;
+	line-height: 11px;
+	color: #fff;
+	margin-bottom: 8px;
+	text-align: justify;
+}
+
+.footer-menu__btn {
+	font-family: 'GothaPro';
+	font-size: 10px;
+	line-height: 30px;
+	color: #fff;
+	border: 1.5px solid #fff;
+	background: transparent;
+	width: 136px;
+	height: 28px;
+	margin-bottom: 33px;
+	text-align: center;
+}
+.social{
+	display: flex;
+	justify-content: space-between;
+	max-width: 140px;
+}
+
+.copyrights {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.copyrights__text {
+	font-family: 'GothaPro';
+	font-size: 12px;
+	line-height: 11px;
+	text-align: center;
+	color: #fff;
+	padding: 13px 0 32px 0;
+	margin: 0 377px 0 0;
+}
+
+.copyrights__webherologo {
+	margin-right: 17px;
 }
 
 @media (max-width: 1024px){
@@ -363,7 +538,7 @@ body {
 
 	.header__column {
 		height: 67px;
-    	flex: 0 0 61px;
+		flex: 0 0 61px;
 	}
 
 	.header__logo {
@@ -371,32 +546,32 @@ body {
 	}
 	
 	.header-menu {
-	    margin: 0 116px 0 0;
-    	height: 56px;
+		margin: 0 116px 0 0;
+		height: 56px;
 	}
 
 	.right-menu {
-    	flex: 0 0 364px;
+		flex: 0 0 364px;
 	}
 	
-    .search-form__input {
-	    height: 17px;
-	    width: 161px;
+	.search-form__input {
+		height: 17px;
+		width: 161px;
 	}
 
-    .search-form__text {
-	    font-size: 12px;
-	    width: 141px;
-    }
+	.search-form__text {
+		font-size: 12px;
+		width: 141px;
+	}
 
-    .search-form__submit {
-	    padding: 0px 10px 0px 10px;
-	    background: url(../image/magnifier.svg) no-repeat 20% 20%;
+	.search-form__submit {
+		padding: 0px 10px 0px 10px;
+		background: url(../image/magnifier.svg) no-repeat 20% 20%;
 	}
 
 	.right-menu__link {
-    	height: 22px;
-    }
+		height: 22px;
+	}
 		/*1 секция*/
 
 	.imageblock {
@@ -411,7 +586,7 @@ body {
 		padding: 77px 0 0 55px;
 	}
 	.imageblock__link {
-    	padding: 0 0 0 55px;
+		padding: 0 0 0 55px;
 	}
 
 	.arrow-white__scrimg {
@@ -425,66 +600,108 @@ body {
 	}
 
 	.shop__title {
-	    margin: 0 0 17px 0;
+		margin: 0 0 17px 0;
 	}
 	.sneaker-item {
-	    width: 211px;
+		width: 211px;
 	}
 
 	.sneaker-item__block {
-        width: 172px;
-    	margin-bottom: 27px;
+		width: 172px;
+		margin-bottom: 27px;
 	}
 
 	.sneaker-item::after {
-    	margin: 42px 0 0 224px;
+		margin: 42px 0 0 224px;
 	}
 
 	.sneaker-item__name {
-	    margin: 0px 0 9px 0;
+		margin: 0px 0 9px 0;
 	}
 
 	.shop-wrap {
-    	margin-bottom: 75px;
-    }
+		margin-bottom: 75px;
+	}
 
 	.colour-circle {
-	    width: 45px;
-	   	padding: 0 16px 0 0px;
+		width: 45px;
+		padding: 0 16px 0 0px;
 	}
 
 	/*2 секция*/
 
 	.history {
-	    height: 442px;
-	    margin-bottom: 92px;
+		height: 442px;
+		margin-bottom: 92px;
 	}
 
 	.history__video {
-	    max-width: 578px;
-	    padding: 4px 0 0 13px;
+		max-width: 578px;
+		padding: 4px 0 0 13px;
 	}
 
 	.history__wrap {
-	    max-width: 246px;
-	    height: 182px;
-	    margin: 0 19px 0 0;
+		max-width: 246px;
+		height: 182px;
+		margin: 0 19px 0 0;
 	}
 
 	.history__title {
-    	margin: 0 0 0 0;
+		margin: 0 0 0 0;
 	}
 
 	.history__text {    
-	    font-size: 13px;
-	    line-height: 16px;
-	    margin: 0 0 0 0;
+		font-size: 13px;
+		line-height: 16px;
+		margin: 0 0 0 0;
 	}
 
 	.arrow-white_img2 {
-   		padding-left: 11px;
+		padding-left: 11px;
 	}
+
+	/*3 секция*/
+
+	.article {
+		margin-bottom: 94px;
+	}
+
+	.article__wrap {
+		margin-bottom: 90px;
+	}
+
+	.article__column {
+		max-width: 277px;
+	}
+
+	.article-item__text {
+		font-size: 13px;
+		line-height: 16px;
+		margin-bottom: 22px;
+	}
+
+	.arrow-black {
+		padding-left: 0px;
+	}
+
+	/*подвал*/
+
+	.copyrights__text {
+		margin-right: 276px;
+	}
+
+	.copyrights__webherologo {
+		margin-right: 45px;
+	}
+
 }
+
+/*@media (min-width: 950px) and (max-width: 992px){
+.conteiner {
+		max-width: 890px;
+	}
+
+}*/
 
 @media (min-width: 769px) and (max-width: 992px){
 	
@@ -499,6 +716,11 @@ body {
 	.sneaker-item::after  {
 		display: none;
 	}
+
+	.article__column {
+		max-width: 250px;
+	}
+
 }
 
 @media (max-width: 768px){
@@ -612,7 +834,7 @@ body {
 		line-height: 19px;
 		padding: 0 0 0 15px;
 		margin-bottom: 18px; 
-    
+	
 	}
 
 	.sneaker-item__price {
@@ -646,6 +868,8 @@ body {
 		flex-direction: column-reverse;
 		justify-content: space-between;
 		height: 603px;
+		margin-bottom: 0;
+		padding-bottom: 103px
 	}
 
 	.history:before {
@@ -658,13 +882,13 @@ body {
 		position: absolute;
 		right: 0;
 		transform: skewY(2.5deg);
-    	transform-origin: 100%;
-    	z-index: -1;
+		transform-origin: 100%;
+		z-index: -1;
 	}
 
 	.history__video {
-	    max-width: 696px;
-	    padding: 0 0 0 0;
+		max-width: 696px;
+		padding: 0 0 0 0;
 	}
 
 	.history__video_img {
@@ -673,27 +897,190 @@ body {
 
 
 	.history__wrap {
-    	align-items: center;
-	    max-width: 683px;   
+		align-items: center;
+		max-width: 683px;   
 	}
 
 	.history__title {
 		font-size: 30px;
 		line-height: 37px;
 		text-align: center;
-	 	margin: 0 0 11px 0;
-    	padding: 48px 0 0 16px;
+		margin: 0 0 11px 0;
+		padding: 48px 0 0 16px;
 	}
 
 	.history__text {    
-	    font-size: 20px;
+		font-size: 20px;
 		line-height: 25px;
 		text-align: center;
-	    padding: 0px 0 0 21px;
+		padding: 0px 0 0 21px;
 	}
 
 	.history__link {
-    	display: none;
+		display: none;
+	}
+
+	/*3 секция*/
+
+	.article {
+		margin-bottom: 124px;
+	}
+
+	.article__wrap {
+		background: #000;
+	}
+
+	.article__wrap:after {
+		background: inherit;
+		content: "";
+		display: block;
+		height: 800px;
+		left: 0;
+		position: absolute;
+		right: 0;
+		transform: skewY(2.5deg);
+		transform-origin: 100%;
+		z-index: -1;
+	}
+
+	.article__title {
+		font-size: 30px;
+		line-height: 29px;
+		color: #fff;
+		margin-top: 0;
+
+	}
+
+	.article__bg {
+		background: #000;
+	}
+
+	.article__wrap {
+		justify-content: space-around;
+		margin: 0 14px 125px 14px;
+	}
+
+	.article__column {
+		max-width: 312px;
+	}
+
+	.article-item__image {
+		height: 166px;
+		max-width: 100%;
+	}
+
+	.article-item__subtitle {
+		font-size: 25px;
+		line-height: 24px;
+		color: #fff;
+	}
+
+	.article-item__text {
+		font-size: 20px;
+		line-height: 25px;
+		color: #fff;
+		margin-bottom: 35px;
+	}
+
+	.article-item__link {
+		font-size: 20px;
+		line-height: 19px;
+		color: #fff;
+	}
+
+	.arrow-black__tabimg {
+		display: inline-block;
+		padding-left: 7px;
+	}
+
+	.article-item__date {
+		font-size: 15px;
+		line-height: 14px;
+		color: #D1D1D1;
+	}
+
+	.article-item:nth-child(3),
+	.arrow-black,
+	.arrow-black__mobimg {
+		display: none;
+	}
+
+	.gallery__tag {
+		font-size: 30px;
+		line-height: 29px;
+		color: #E8E8E8;
+		margin: 0 43px 15px 0;
+	}
+
+	.gallery__wrap {
+		flex-wrap: wrap;
+		justify-content: center;
+		position: relative;
+	}
+
+	.gallery__img {
+		width: 170px;
+	}
+
+	.gallery__img-add {
+		display: block;
+	}
+
+	/*подвал*/
+
+	.footer__wrap {
+		max-width: 664px;
+		padding-top: 43px;
+	}
+
+	.column:nth-child(4) {
+		max-width: 156px;
+	}
+
+	.column:nth-child(4) .column__title{
+		margin-left: 10px;
+	}
+
+	.column:nth-child(4) .footer-menu__link{
+		margin-left: 10px;
+	}
+
+	.column__title {
+		margin-bottom: 8px;
+	}
+
+	.footer-menu__btn {
+		width: 141px;
+		height: 23px;
+		margin-bottom: 29px;
+		margin-top: 2px;
+		margin-left: 10px;
+	}
+
+	.social {
+		max-width: 118px;
+		margin-left: 10px;
+	}
+
+	.copyrights {
+		display: block;
+	}
+
+	.copyrights__text {
+		margin: 0 auto;
+		padding: 32px 0 34px 0;
+	}
+
+	.copyrights__webherologo {
+		display: none;
+	}
+
+}
+
+@media (min-width: 577px) and (max-width: 696px){
+	
+	.history__video_img {
+		width: 100%;
 	}
 }
 
@@ -703,9 +1090,9 @@ body {
 		display: none;
 	}
 
-	.history__video_img {
+	/*.history__video_img {
 		width: 100%;
-	}
+	}*/
 
 }
 
@@ -752,7 +1139,7 @@ body {
 		line-height: 19px;
 		width: 129px;
 		margin: 0 0 17px 0;
-    	padding: 64px 0 0 47px;
+		padding: 64px 0 0 47px;
 	}
 
 	.imageblock__link {
@@ -786,15 +1173,15 @@ body {
 	}
 	.sneaker-item__block {
 		width: 163px;
-	    height: auto;
-	    margin-bottom: 14px;
+		height: auto;
+		margin-bottom: 14px;
 	}
 	
 	.sneaker-item__name {
 		font-size: 15px;
 		line-height: 14px;
 		padding: 0 0 0 16px;
-    	margin-bottom: 8px; 
+		margin-bottom: 8px; 
 	}
 
 	.sneaker-item__price {
@@ -820,33 +1207,194 @@ body {
 	/*2 секция*/
 
 	.history {
-		height: 365px;
+		height: 360px;
 		
 	}
 
 	.history__video {
-	    max-width: 279px;
-	    padding: 0 0 0 0;
+		max-width: 279px;
+		padding: 0 0 0 0;
 	}
+
+	.history__video_img {
+		width: 100%;
+	}
+
 	.history__wrap {
-	    max-width: 283px;
-	    margin: 0 21px 0 0;   
+		max-width: 283px;
+		margin: 0 21px 0 0;   
 	}
 
 	.history__title {
 		font-size: 20px;
 		line-height: 25px;
-	 	margin: 0 0 4px 0;
-    	padding: 18px 0 0 21px;
-    	max-width: 260px;
+		margin: 0 0 4px 0;
+		padding: 18px 0 0 21px;
+		max-width: 260px;
 	}
 
 	.history__text {   
-	    font-size: 14px;
+		font-size: 14px;
 		line-height: 17px;
-	    padding: 0px 0 0 21px;
+		padding: 0px 0 0 21px;
 	}
+
+	/*3 секция*/
+
+	.article {
+		margin-bottom: 84px;
+	}
+
+	.article__wrap {
+		margin: 0 0 101px 0;
+	}
+
+	.article__wrap:after {
+		height: 745px;
+	}
+
+	.article__column {
+    	max-width: 279px;
+	}
+
+	.article__title {
+		font-size: 20px;
+		line-height: 19px;
+		margin-bottom: 27px;
+	}
+
+	.article-item__subtitle {
+		font-size: 20px;
+		line-height: 19px;
+	}
+
+	.article-item__text {
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 27px;
+	}
+
+	.article-item:nth-child(2),
+	.arrow-black,
+	.arrow-black__tabimg {
+		display: none;
+	}
+
+	.arrow-black__mobimg {
+		display: inline-block;
+		padding-left: 9px;
+	}
+
+	.article-item__image {
+		max-width: 279px;
+		max-height: 149px;
+	}
+
+	.article-item__link {
+		font-size: 12px;
+		line-height: 11px;
+	}
+
+	.article-item__date {
+		font-size: 15px;
+		line-height: 14px;
+	}
+
+	.gallery__tag {
+		font-size: 25px;
+		line-height: 24px;
+		text-align: center;
+		margin: 0 0 11px 0;
+	}
+
+	.gallery__img {
+		width: 140px;
+	}
+
+	.gallery__img:nth-child(3) {
+		order: 5;
+	}
+	.gallery__img:nth-child(4) {
+		display: none;
+	}
+
+	.gallery__img:nth-child(5) {
+		order: 4;
+	}
+
+	.gallery__img-add {
+		display: none;
+	}
+
+
+	/*подвал*/
+
+	.footer__wrap {
+		flex-direction: column;
+		align-items: center;
+		padding-top: 38px;
+		margin-bottom: 49px;
+	}
+
+	.column {
+		max-height: 130px;
+		margin-bottom: 54px;
+	}
+
+	.column__title {
+		font-size: 15px;
+		line-height: 14px;
+		text-align: center;
+		margin:0 0 8px 0;
+
+	}
+
+	.column:nth-child(2) {
+		order: 2;
+	}
+
+	.column:nth-child(3) {
+		order: 1;
+	}
+
+	.column:nth-child(4) {
+		max-width: 190px;
+		order: 3;
+	}
+
+	.footer-menu__link {
+		font-size: 15px;
+		line-height: 14px;
+		text-align: center;
+	}
+
+	.footer-menu__btn {
+		font-size: 12px;
+		line-height: 11px;
+		width: 148px;
+		padding-top: 11px;
+		margin: 15px 0 105px 0;
+		align-self: center;
+
+	}
+
+	.social {
+		max-width: 165px;
+	}
+
+	.social__link img {
+		width: 120%;
+	}
+
+	.copyrights__text {
+		font-size: 13px;
+		line-height: 12px;
+	}
+
+
+	
 }
+
 @media (max-width: 320px){
 	
 	.header__logo_tabimg {
@@ -867,8 +1415,8 @@ body {
 	}
 
 	.imageblock__title {
-    	padding: 64px 0 0 20px;
-    }
+		padding: 64px 0 0 20px;
+	}
 
 	.imageblock__link {
 		padding: 0 0 0 20px;
@@ -876,6 +1424,7 @@ body {
 	
 	.sneaker-item__name {
 		padding: 0 0 0 16px;
-    	margin-bottom: 8px; 
+		margin-bottom: 8px; 
 	}
 }
+*/
