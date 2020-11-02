@@ -83,7 +83,7 @@ a {
 }
 
 .search-form__submit {
-	padding: 30px 11px 0px 6px;
+	padding: 30px 11px 0 6px;
 	border: none;
 	background: url(../image/magnifier.svg) no-repeat 50% 50%;
 }
@@ -572,7 +572,7 @@ a {
 		height: 22px;
 	}
 
-		/*1 секция*/
+	/*1 секция*/
 
 	.imageblock {
 		background: url(../image/rob-potter-1024.svg);
@@ -889,7 +889,7 @@ a {
 
 	.history__wrap {
 		align-items: center;
-		max-width: 683px;   
+		max-width: 683px;
 	}
 
 	.history__title {
@@ -1167,7 +1167,7 @@ a {
 		font-size: 15px;
 		line-height: 14px;
 		padding: 0 0 0 16px;
-		margin-bottom: 8px; 
+		margin-bottom: 8px;
 	}
 
 	.sneaker-item__price {
@@ -1221,7 +1221,7 @@ a {
 	.history__text {   
 		font-size: 14px;
 		line-height: 17px;
-		padding: 0px 0 0 21px;
+		padding: 0 0 0 21px;
 	}
 
 	/*3 секция*/
@@ -1310,7 +1310,6 @@ a {
 	.gallery__img-add {
 		display: none;
 	}
-
 
 	/*подвал*/
 
