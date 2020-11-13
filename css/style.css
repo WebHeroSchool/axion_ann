@@ -924,7 +924,6 @@ a {
     justify-content: space-around;
     margin: 0 14px 125px 14px;
   }
-  }
 
   .article__wrap::after {
     background: inherit;
