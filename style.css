@@ -111,7 +111,7 @@ a {
   padding: 0 0 0 4px;
 }
 
-/* 1секция */
+/*1секция*/
 
 .imageblock {
   background: url(../image/rob-potter-bg.svg);
@@ -282,7 +282,7 @@ a {
   background: #257da9;
 }
 
-/* 2секция */
+/*2секция*/
 
 .history {
   background: #000;
@@ -338,7 +338,7 @@ a {
   padding-left: 6px;
 }
 
-/* 3секция */
+/*3секция*/
 
 .article {
   margin-bottom: 79px;
@@ -443,7 +443,7 @@ a {
   display: none;
 }
 
-/* подвал */
+/*подвал*/
 
 .footer {
   background-color: #000;
@@ -572,7 +572,7 @@ a {
     height: 22px;
   }
 
-  /* 1секция */
+  /*1секция*/
 
   .imageblock {
     background: url(../image/rob-potter-1024.svg);
@@ -630,7 +630,7 @@ a {
     padding: 0 16px 0 0;
   }
 
-  /* 2секция */
+  /*2секция*/
 
   .history {
     height: 442px;
@@ -662,7 +662,7 @@ a {
     padding-left: 11px;
   }
 
-  /* 3секция */
+  /*3секция*/
 
   .article {
     margin-bottom: 94px;
@@ -686,7 +686,7 @@ a {
     padding-left: 0;
   }
 
-  /* подвал */
+  /*подвал*/
 
   .copyrights__text {
     margin-right: 276px;
@@ -762,7 +762,7 @@ a {
     display: none;
   }
 
-  /* 1секция */
+  /*1секция*/
 
   .imageblock {
     background: url(../image/rob-potter-768.svg);
@@ -851,7 +851,7 @@ a {
     display: none;
   }
 
-  /* 2секция */
+  /*2секция*/
 
   .history {
     background: #000;
@@ -910,7 +910,7 @@ a {
     display: none;
   }
 
-  /* 3секция */
+  /*3секция*/
 
   .article {
     margin-bottom: 124px;
@@ -1012,7 +1012,7 @@ a {
     display: block;
   }
 
-  /* подвал */
+  /*подвал*/
 
   .footer__wrap {
     max-width: 664px;
@@ -1107,7 +1107,7 @@ a {
     height: 5px;
   }
 
-  /* 1секция */
+  /*1секция*/
 
   .imageblock {
     background: url(../image/rob-potter-375.svg);
@@ -1186,7 +1186,7 @@ a {
     display: none;
   }
 
-  /* 2секция */
+  /*2секция*/
 
   .history {
     height: 360px;
@@ -1214,13 +1214,13 @@ a {
     max-width: 260px;
   }
 
-  .history__text {
+  .history__text {   
     font-size: 14px;
     line-height: 17px;
     padding: 0 0 0 21px;
   }
 
-  /* 3секция */
+  /*3секция*/
 
   .article {
     margin-bottom: 84px;
@@ -1308,7 +1308,7 @@ a {
     display: none;
   }
 
-  /* подвал */
+  /*подвал*/
 
   .footer__wrap {
     flex-direction: column;
@@ -1381,7 +1381,7 @@ a {
     margin: 0 0 0 90px;
   }
 
-  /* 1секция */
+  /*1секция*/
 
   .imageblock {
     background: url(../image/rob-potter-320.svg);
