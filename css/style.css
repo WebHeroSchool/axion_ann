@@ -111,7 +111,7 @@ a {
   padding: 0 0 0 4px;
 }
 
-/* 1 секция*/
+/*1секция*/
 
 .imageblock {
   background: url(../image/rob-potter-bg.svg);
@@ -282,7 +282,7 @@ a {
   background: #257da9;
 }
 
-/* 2 секция*/
+/*2секция*/
 
 .history {
   background: #000;
@@ -302,7 +302,7 @@ a {
 
 .history__video_img {
   width: 100%;
-  height: 100%;	
+  height: 100%;
 }
 
 .history__wrap {
@@ -338,7 +338,7 @@ a {
   padding-left: 6px;
 }
 
-/* 3 секция*/
+/*3секция*/
 
 .article {
   margin-bottom: 79px;
@@ -425,7 +425,7 @@ a {
   font-weight: bold;
   text-transform: uppercase;
   text-align: right;
-  opacity: 0.3;
+  opacity: .3;
   margin-bottom: 11px;
 }
 
@@ -443,7 +443,7 @@ a {
   display: none;
 }
 
-/* подвал*/
+/*подвал*/
 
 .footer {
   background-color: #000;
@@ -527,7 +527,6 @@ a {
 }
 
 @media (max-width: 1024px) {
-
   .conteiner {
     max-width: 930px;
   }
@@ -573,7 +572,7 @@ a {
     height: 22px;
   }
 
-  /* 1 секция*/
+  /*1секция*/
 
   .imageblock {
     background: url(../image/rob-potter-1024.svg);
@@ -631,7 +630,7 @@ a {
     padding: 0 16px 0 0;
   }
 
-  /* 2 секция*/
+  /*2секция*/
 
   .history {
     height: 442px;
@@ -663,7 +662,7 @@ a {
     padding-left: 11px;
   }
 
-  /* 3 секция*/
+  /*3секция*/
 
   .article {
     margin-bottom: 94px;
@@ -687,7 +686,7 @@ a {
     padding-left: 0;
   }
 
-  /* подвал*/
+  /*подвал*/
 
   .copyrights__text {
     margin-right: 276px;
@@ -699,7 +698,6 @@ a {
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-
   .conteiner {
     max-width: 890px;
   }
@@ -718,7 +716,6 @@ a {
 }
 
 @media (max-width: 768px) {
-
   .header {
     height: 114px;
   }
@@ -765,7 +762,7 @@ a {
     display: none;
   }
 
-  /* 1 секция*/
+  /*1секция*/
 
   .imageblock {
     background: url(../image/rob-potter-768.svg);
@@ -854,7 +851,7 @@ a {
     display: none;
   }
 
-  /* 2 секция*/
+  /*2секция*/
 
   .history {
     background: #000;
@@ -902,7 +899,7 @@ a {
     padding: 48px 0 0 16px;
   }
 
-  .history__text {    
+  .history__text {
     font-size: 20px;
     line-height: 25px;
     text-align: center;
@@ -913,7 +910,7 @@ a {
     display: none;
   }
 
-  /* 3 секция*/
+  /*3секция*/
 
   .article {
     margin-bottom: 124px;
@@ -1015,7 +1012,7 @@ a {
     display: block;
   }
 
-  /* подвал*/
+  /*подвал*/
 
   .footer__wrap {
     max-width: 664px;
@@ -1066,14 +1063,12 @@ a {
 }
 
 @media (min-width: 577px) and (max-width: 696px) {
-
   .history__video_img {
     width: 100%;
   }
 }
 
 @media (min-width: 376px) and (max-width: 576px) {
-
   .sneaker-item:nth-child(2) {
     display: none;
   }
@@ -1084,7 +1079,6 @@ a {
 }
 
 @media (max-width: 375px) {
-
   .header {
     height: 72px;
     justify-content: space-around;
@@ -1113,7 +1107,7 @@ a {
     height: 5px;
   }
 
-  /* 1 секция*/
+  /*1секция*/
 
   .imageblock {
     background: url(../image/rob-potter-375.svg);
@@ -1192,7 +1186,7 @@ a {
     display: none;
   }
 
-  /* 2 секция*/
+  /*2секция*/
 
   .history {
     height: 360px;
@@ -1226,7 +1220,7 @@ a {
     padding: 0 0 0 21px;
   }
 
-  /* 3 секция*/
+  /*3секция*/
 
   .article {
     margin-bottom: 84px;
@@ -1236,7 +1230,7 @@ a {
     margin: 0 0 101px 0;
   }
 
-  .article__wrap:after {
+  .article__wrap::after {
     height: 745px;
   }
 
@@ -1314,7 +1308,7 @@ a {
     display: none;
   }
 
-  /* подвал*/
+  /*подвал*/
 
   .footer__wrap {
     flex-direction: column;
@@ -1378,7 +1372,6 @@ a {
 }
 
 @media (max-width: 320px) {
-
   .header__logo_tabimg {
     width: 104px;
     margin: 0 0 0 0;
@@ -1388,7 +1381,7 @@ a {
     margin: 0 0 0 90px;
   }
 
-  /* 1 секция*/
+  /*1секция*/
 
   .imageblock {
     background: url(../image/rob-potter-320.svg);
